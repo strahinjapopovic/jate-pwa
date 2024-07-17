@@ -64,7 +64,7 @@ $ npm run start:production # production mode
 
 [<img src="./images/run-prod-output-bord.png" width="" alt="Git Bash output console." />](./images/run-prod-output-bord.png)
 
-Available scripts can be found at `package.json` file at root ~/app> directory (`~/jate-pwa/app>`).
+Available scripts can be found at `package.json` file at client directory at `~/app/client/package.json>` file.
 
 ```json
 "scripts": {
