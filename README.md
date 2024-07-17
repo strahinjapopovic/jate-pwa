@@ -69,7 +69,8 @@ Available scripts can be found at `package.json` file at root ~/app> directory (
 ```json
 "scripts": {
     "start:development": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run development\"",
-    "start:production": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run production\""
+    "start:production": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run production\"",
+    "install": "cd ./server && npm install && cd ../client && npm install"
   }
 ```
 ## License
