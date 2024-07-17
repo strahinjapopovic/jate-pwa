@@ -8,7 +8,7 @@
 
 ![node version](https://img.shields.io/badge/v22-node-blue?logo=nodedotjs) ![express version](https://img.shields.io/npm/v/express?logo=express&label=Express.js&labelColor=grey&color=blue) ![npm version](https://img.shields.io/badge/version-v10.5.1-npm.svg?style=flat&logo=npm&label=npm&labelColor=grey&color=red) ![webpack version](https://img.shields.io/npm/v/webpack?logo=webpack&label=webpack%20npm) ![workbox npm plugin](https://img.shields.io/npm/v/workbox-webpack-plugin?logo=npm&label=workbox-webpack-plugin) ![IndexedDB idb-version](https://img.shields.io/npm/v/idb?logo=npm&label=IndexedDB-idb)
 
-![JATE App](./images/JATE-screenshot-main-bord.PNG)
+![JATE App](./images/JATE-screenshot-main-bord.png)
 
 ## Table of Content
 
