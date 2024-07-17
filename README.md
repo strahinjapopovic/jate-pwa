@@ -16,6 +16,7 @@
 - [Working with cache](#working-with-cache)
 - [Service Worker (Proxy Web Worker)](#service-worker-proxy-web-worker)
 - [Installation Process](#installation-process)
+- [Deployed Application](#deployed-application)
 - [License](#license)
 - [Questions and Contacts](#questions-and-contacts)
 
@@ -31,7 +32,7 @@ While using the browser on network and wisiting sites and online applications, b
 
 On the first image first request from the client goes to the remote server and requests resources and data, then grtting back to the client browser and application and do additional processing of the request, transform data for local storage, so same requests later serve from local cache.  
 
-## Service Worker (Proxy Web Worker)
+## Workbox Service Worker (Proxy Web Worker)
 
 A Service Worker is a type of web worker that runs in the background of a web application, independent of the web page's main thread. They allow developers to build offline web applications, load faster, and provide a more reliable user experience.
 
@@ -44,7 +45,7 @@ To initialize package.json and to install dir node_packages over Git Bash termin
 ```bash
 $ npm init # initialize formating file ./package.json OR if .json already exists just
 
-$ npm install # installing formating dir ./node_packages
+$ npm install # installing and formating dir ./node_packages
 ```
 After installing packages within root directory (`~/jate-pwa/app>`) run the following command to start (triger) `build` process 
 
@@ -64,14 +65,19 @@ $ npm run start:production # production mode
 
 [<img src="./images/run-prod-output-bord.png" width="" alt="Git Bash output console." />](./images/run-prod-output-bord.png)
 
-Available scripts can be found at `package.json` file at client directory at `~/app/client/package.json>` file.
+Available scripts can be found at `package.json` file at client directory (`~/app/client/package.json>`).
 
 ```json
 "scripts": {
     "start:development": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run development\"",
-    "start:production": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run production\""
+    "start:production": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run production\"",
+    "install": "cd ./server && npm install && cd ../client && npm install"
   }
 ```
+## Deployed Application
+
+Application `jate-pwa` has been deployed [onrender](https://jate-pwa-97dd.onrender.com/)
+
 ## License
 
 Copyright © 2024, [codexdev](https://github.com/strahinjapopovic). Released under the [MIT License](./LICENSE).
@@ -79,4 +85,4 @@ Copyright © 2024, [codexdev](https://github.com/strahinjapopovic). Released und
 <a id="questions-and-contacts"></a>
 ## Questions and Contacts
 
-Questions about application can be reffered to the author's [GitHub account](https://github.com/strahinjapopovic) or you can [Contact Me](mailto:spope.mails@gmail.com) directly over an email.
+Questions about application can be reffered to the author's [GitHub repo](https://github.com/strahinjapopovic/jate-pwa) or you can [Contact Me](mailto:spope.mails@gmail.com) directly over an email.
