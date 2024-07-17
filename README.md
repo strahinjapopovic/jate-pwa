@@ -2,11 +2,13 @@
 
 ## Jast Another Text Editor ( JATE ) and Progressive Web Application ( PWA )
 
+### JATE is text editor incorporating some of the PWA technologies like Workbox Service Proxy Worker helping with page-cache and static-resources management and Webpack configuration generator for Manifest.json and ./dist directory builder.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-aqua.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) 
 
-![node version](https://img.shields.io/badge/v22-node-blue?logo=nodedotjs) ![express version](https://img.shields.io/npm/v/express?logo=express&label=Express.js&labelColor=grey&color=blue) ![npm version](https://img.shields.io/badge/version-v10.5.1-npm.svg?style=flat&logo=npm&label=npm&labelColor=grey&color=red) ![webpack version](https://img.shields.io/npm/v/webpack?logo=webpack&label=webpack%20npm) ![workbox npm plugin](https://img.shields.io/npm/v/workbox-webpack-plugin?logo=npm&label=workbox-webpack-plugin) ![IndexDB version](https://img.shields.io/npm/v/idb?logo=npm&label=IndexDB)
+![node version](https://img.shields.io/badge/v22-node-blue?logo=nodedotjs) ![express version](https://img.shields.io/npm/v/express?logo=express&label=Express.js&labelColor=grey&color=blue) ![npm version](https://img.shields.io/badge/version-v10.5.1-npm.svg?style=flat&logo=npm&label=npm&labelColor=grey&color=red) ![webpack version](https://img.shields.io/npm/v/webpack?logo=webpack&label=webpack%20npm) ![workbox npm plugin](https://img.shields.io/npm/v/workbox-webpack-plugin?logo=npm&label=workbox-webpack-plugin) ![IndexedDB idb-version](https://img.shields.io/npm/v/idb?logo=npm&label=IndexedDB-idb)
 
-![JATE App](./images/JATE-screenshot-main.PNG)
+![JATE App](./images/JATE-screenshot-main-bord.PNG)
 
 ## Table of Content
 
